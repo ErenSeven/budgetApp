@@ -10,16 +10,16 @@ git clone https://github.com/ErenSeven/budgetApp.git
 Önce budgetAppNodeServer dizinine gidin ve npm install komutuyla gerekli paketleri yükleyin.
 Ardından budgetAppNodeServer içerisinde .env dosyası oluşturup aşağıdaki gibi doldurun:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# MongoDB bağlantı URI'si
+MongoDB bağlantı URI'si
 MONGODB_URI=mongodb+srv://<kullanici_adi>:<sifre>@<cluster_adı>.mongodb.net/<veritabani_adi>?retryWrites=true&w=majority&appName=<uygulama_adi>
 
-# JWT için erişim token gizli anahtarı (Access Token Secret)
+JWT için erişim token gizli anahtarı (Access Token Secret)
 JWT_ACCESS_SECRET='gizli_anahtarin'
 
-# JWT için yenileme token gizli anahtarı (Refresh Token Secret)
+JWT için yenileme token gizli anahtarı (Refresh Token Secret)
 JWT_REFRESH_SECRET='refresh_gizli_anahtarin'
 
-# Uygulama çalışma ortamı (development, production, vb.)
+Uygulama çalışma ortamı (development, production, vb.)
 NODE_ENV=development
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
