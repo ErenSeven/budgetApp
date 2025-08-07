@@ -7,8 +7,8 @@ Next.js ve Node.js kullanılarak geliştirilen, kullanıcıların harcamaların�
 git clone https://github.com/ErenSeven/budgetApp.git
 
 ### 2. Gereklilikleri yükleme
-Önce budgetAppNodeServer dizinine gidin ve npm install komutuyla gerekli paketleri yükleyin.\n
-Ardından budgetAppNodeServer içerisinde .env dosyası oluşturup aşağıdaki gibi doldurun:\n
+Önce budgetAppNodeServer dizinine gidin ve npm install komutuyla gerekli paketleri yükleyin.
+Ardından budgetAppNodeServer içerisinde .env dosyası oluşturup aşağıdaki gibi doldurun:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MongoDB bağlantı URI'si\n
 MONGODB_URI=mongodb+srv://<kullanici_adi>:<sifre>@<cluster_adı>.mongodb.net/<veritabani_adi>?retryWrites=true&w=majority&appName=<uygulama_adi>\n
